@@ -1,6 +1,8 @@
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+
 }
 
 .card {
@@ -19,6 +21,16 @@
 
 
 
+}
+
+
+.this_is_h1{
+  font-size: 14px;
+}
+
+.img-circle{
+  border-radius: 100%;
+  width: 50px;
 }
 .card-user {
   position: absolute;
@@ -39,13 +51,16 @@
   position: absolute;
   bottom: 10px;
   left: 10px;
+  h3{
+    font-size: 14px;
+  }
 }
 .card-description h2 {
   font-size: 24px;
 }
 .card-description p {
-  font-size: 14px;
-  opacity: 0.7;
+  font-size: 12 px;
+  opacity: 1;
   font-weight: lighter;
 }
 .card-link {
@@ -57,7 +72,12 @@
   z-index: 2;
   background: black;
   opacity: 0;
+  font-size: 14px;
 }
 .card-link:hover {
   opacity: 0.1;
+}
+
+.text-center {
+  font-size: 40px;
 }
